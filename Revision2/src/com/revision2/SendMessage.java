@@ -46,7 +46,7 @@ public class SendMessage extends HttpServlet {
 			
 			out.println("<html><body>");
 			out.println("Message Sent Successfully : "+message.getText());
-			out.println("</html><>/body");
+			out.println("</body></html>");
 			
 		} 
 		catch (Exception e) {
